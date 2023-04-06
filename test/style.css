@@ -1,0 +1,144 @@
+.middle-footer {
+    background: #f3f3f3;
+
+    .block {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0 0 5px;
+        color: #525252;
+    }
+
+    p {
+        color: #525252;
+        font-size: 13px;
+        text-transform: capitalize;
+        line-height: 24px;
+        margin-bottom: 20px;
+        word-wrap: break-word;
+
+        &.old-site {
+            a {
+                border: 1px solid $blue;
+                color: $blue;
+                padding: 10px;
+                border-radius: 3px;
+
+                &:hover {
+                    border: 1px solid $primarycolor;
+                    color: $blue;
+                }
+            }
+        }
+
+        a {
+            color: #525252;
+            white-space: nowrap;
+
+            &:hover {
+                color: $primarycolor;
+            }
+        }
+
+        .slash {
+            width: 0px;
+            height: 11px;
+            border-right: 1px solid #525252;
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .container {
+        gap: 30px;
+    }
+}
+
+.common-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+.middle-footer {
+    background: #f3f3f3;
+}
+
+.common-padding {
+    padding: 40px 0;
+}
+
+.middle-footer .container {
+    gap: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.middle-footer .block {
+    width: 100%;
+}
+
+.middle-footer h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    color: #525252;
+}
+
+.middle-footer p {
+    color: #525252;
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 24px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.middle-footer p a {
+    color: #525252;
+    white-space: nowrap;
+}
+
+a,
+a:focus,
+a:hover,
+button,
+button:focus,
+button:hover {
+    text-decoration: none;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.middle-footer p .slash {
+    width: 0;
+    height: 11px;
+    border-right: 1px solid #525252;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
